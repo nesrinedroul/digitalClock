@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    background-image: url(viewClock.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+   font-family: monospace;;
+    
+    height: 100vh;/* Sets the height to 100% of the viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*4 last lines to ensure children of body are centered*/
+}
+#text{
+   text-align: center;
+    font-size: 100px;
+    margin: 10px;
+    text-shadow: 2px 2px 2px #570043;
+    color: rgb(254, 157, 230);
+}
+#time{
+    text-align: center;
+    width: 100%;
+    font-size: 80px;
+    text-shadow: 2px 2px 2px #000000;
+   backdrop-filter: blur(10px);
+   color: rgb(246, 181, 230);
+}
